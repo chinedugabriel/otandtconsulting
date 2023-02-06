@@ -8,23 +8,23 @@ class PagesController extends Controller
 {
     //
     public function index(){
-        return view('/');
+        return view('index');
     }
     public function services(){
-        return view('/services');
+        return view('/pages.services');
     }
-    public function About(){
-        return view('/about');
+    public function about(){
+        return view('/pages.about');
     }
     public function contact() {
         return view('pages.contact');
     }
 
     public function projects(){
-        return view('/projects');
+        return view('/pages.projects');
     }
     public function carriers(){
-        return view('/carriers');
+        return view('/pages.carriers');
     }
 
 }

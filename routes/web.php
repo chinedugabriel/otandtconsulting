@@ -15,8 +15,19 @@ use App\Http\Controllers\PagesController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PagesController::class,'index']);
 
-Route::get();
+// service route
+Route::get('/services',[PagesController::class,'services']);
+
+// about route
+Route::get('/about', [PagesController::class,'about']);
+
+// contact route
+Route::get('/contact',[PagesController::class,'contact']);
+
+// project route
+Route::get('/projects',[PagesController::class,'projects']);
+
+// carriers route
+Route::get('/carriers',[PagesController::class,'carriers']);
