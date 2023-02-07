@@ -152,6 +152,7 @@ section.home-sec{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .home-sec>.container{
     border: 2px solid red;
@@ -193,3 +194,30 @@ section.home-sec{
 }
 
 /* pages.index ends here */
+
+div.arrow-nav{
+    border: 2px solid green;
+    width: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    position: absolute;
+    bottom:10%;
+    right: 10%;
+}
+
+div.arrow-nav>div{
+    color: #e2d4dc;
+    background-color: #cbbea9;
+    
+}
+.button-rounded {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
