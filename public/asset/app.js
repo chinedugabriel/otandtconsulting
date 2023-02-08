@@ -37,3 +37,9 @@ function btnOpen(){
 
 closeButtonNav.addEventListener('click',btnClose);
 openButtonNav.addEventListener('click',btnOpen);
+
+
+// this veriable is linked from the span element with an id of "show year"
+
+let placeYear = document.getElementById('show-year');
+

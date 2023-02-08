@@ -9,9 +9,9 @@
 body{
     color: #e2d4dc;
     position: relative;
-    width: 99%;
+    width: 100%;
     height: 100vh;
-    font-family: 'Poppins','Raleway', sans-serif;
+    font-family: 'Familjen Grotesk','Poppins','Raleway', sans-serif;
     
 }
 
@@ -247,3 +247,112 @@ div.arrow-nav>div{
     cursor: pointer;
     border-radius: 50%;
 }
+
+
+/* End of home / template styling */
+.green-bg{
+    background-color: #1c2a0f;
+}
+.contact-sec-2{
+
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.contact-sec-2>.hold-wrapper{
+    width: 50%;
+    margin-left: 8%;
+    height: 85vh ;
+    display: flex;
+    flex-flow: column nowrap;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left:10%;
+    position: relative;
+  /* border: 2px solid rgb(189, 0, 0); */
+
+
+}
+
+.contact-sec-2 .wrapper-sec{
+  width:60%;  
+  height: 50%;
+  /* border: 2px solid rgb(153, 51, 51); */
+  display: flex;
+  flex-flow: column nowrap;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.contact-sec-2 .wrapper-sec p{
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.contact-sec-2 .wrapper-sec p.address-sec{
+    line-height: 45px;
+    width: 50%;
+
+}
+
+.contact-sec-2 .wrapper-sec p>span{
+    border-bottom: 3px solid#c6dc55;
+    padding-bottom: 5px;
+}
+
+/* img-wrapper starts here */
+.img-wrapper{
+  /* border: 2px solid rgb(153, 51, 51); */
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    right: -25%;
+    background-image: url('img/otandtBuilding.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+}
+.img-wrapper>img{
+    width: 100%;
+    height: 100%;
+}
+
+/* img-wrapper ends here */
+
+
+/* footer template starts here */
+.footer-nav-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: center; */
+    justify-content:end;
+    padding: 0px 50px;
+}
+
+.footer-nav-caption{
+    width: 30%;
+    /* height: 100px; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    /* border: 1px solid white; */
+    display: none;
+}
+.footer-nav-caption {
+    
+}
+
+.footer-nav-caption a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #cbbea9;
+}
+/* footer template ends here */
+
+
+/* --End of contact page-- */

@@ -109,7 +109,35 @@
 
         @yield('content')
 
-
+        <section class="green-bg">
+            <div class="footer-nav-wrapper">
+                {{-- <div class="footer-nav-caption">
+                    <p>
+                        <a href="">
+                            Human Capital
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Development
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Watch Video
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">Contact Us</a>
+                    </p>
+                </div> --}}
+                <div class="year-sec">
+                    <p>
+                        © {{date("Y");}}. OT&T Consulting
+                    </p>
+                </div>
+            </div>
+        </section>
         <script src="asset/app.js"></script>
         <!-- Optional JavaScript; choose one of the two! -->
 
