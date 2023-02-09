@@ -15,6 +15,23 @@ body{
     
 }
 
+/* ScrollBar style */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #1d1d1d;
+  }
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #c6dc55; 
+    /* border-radius: 10px; */
+  }
+  /* ::-webkit-scrollbar-track {
+    width: 20px; 
+  } */
 /* Google Icon */
 .material-symbols-outlined {
   font-variation-settings:
@@ -232,7 +249,7 @@ div.arrow-nav{
     right: 10%;
 }
 
-div.arrow-nav>div{
+.button{
     color: #e2d4dc;
     background-color: #cbbea9;
     
@@ -326,6 +343,7 @@ div.arrow-nav>div{
 
 
 /* footer template starts here */
+
 .footer-nav-wrapper{
     display: flex;
     flex-flow: row wrap;
@@ -356,3 +374,102 @@ div.arrow-nav>div{
 
 
 /* --End of contact page-- */
+
+
+/* About Us page starts here */
+section.dark-sec{
+    background-color: #1d1d1d;
+}
+section.darck-sec>.container>.row>.col-md-12>h3{
+    font-size: 32px;
+    width:95%;
+}
+.green-text{
+    color: #c6dc55;
+}
+/* section.darck-sec>.container>.row .jump-to-achor{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+} */
+section.dark-sec>.container>.row>.col-md-12{
+width: 100% !important;
+text-align: center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+section.dark-sec>.container>.row>.col-md-12>a{
+    text-decoration: none;
+    color: #cbbea9;
+}
+section.dark-sec>.container>.row>.col-md-12>a>span{
+    font-size: 50px;
+}
+
+/* card info starts here */
+.card-info{
+    width: 30%;
+    height: 50vh;
+    background-color: #3c5427;
+    position: relative;
+}
+.card-info>.about-name{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+/* card info ends here*/
+#wrapper-Q{
+    height: 75vh;
+    width: 100%;
+    background-image: url("/img/other-bg/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50%;
+    margin-bottom: -20%;
+}
+
+.wrap-text-about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrap-text-about>p{
+    width: 45%;
+}
+
+.footer-bg-img{
+    height: 90vh;
+    background-image: url("/img/footer-bg/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-bg-img>div.footer-wrapper{
+
+}
+
+.footer-year{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+/* About Us page ends here */

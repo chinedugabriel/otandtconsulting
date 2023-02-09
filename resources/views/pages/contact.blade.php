@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <div class="img-wrapper">
-                        <img src="img/otandt_Building.jpg" alt="" >
+                        <img src="img/otandt_Building.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
 
@@ -74,35 +74,6 @@
 
 
 
-    {{-- <section class="contact-sec-2">
-        <div class="container-fluid">
-            <div class="row ">
-                <div class="col-md-9 bg-white boder rounded hold-wrapper ">
-                    <div class="wrapper-sec ">
-                        <div class="row m-0">
-                            <div class="col-md-12">
-                                <p>
-                                    <span>Global</span>Headquaters
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <h1>OT&T Lagos</h1>
-                            <p class="address-sec">
-                                9 Military Street
-
-                                Lagos, Nigeria.
-
-                                info@otandtconsulting.com
-
-                                +234 803 673 4277
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
 
 @endsection
     
