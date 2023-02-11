@@ -29,9 +29,10 @@ body{
     background: #c6dc55; 
     /* border-radius: 10px; */
   }
-  /* ::-webkit-scrollbar-track {
-    width: 20px; 
-  } */
+
+::-webkit-scrollbar-track {
+    background: transparent!important;
+}
 /* Google Icon */
 .material-symbols-outlined {
   font-variation-settings:
@@ -462,9 +463,6 @@ section.dark-sec>.container>.row>.col-md-12>a>span{
     position: relative;
 }
 
-.footer-bg-img>div.footer-wrapper{
-
-}
 
 .footer-year{
     position: absolute;
@@ -473,3 +471,94 @@ section.dark-sec>.container>.row>.col-md-12>a>span{
 }
 
 /* About Us page ends here */
+
+
+/* Services Us page starts here */
+
+/* list wrapper starts here  */
+div.list-wrapper{
+    /* border:2px solid red; */
+    height: 60vh;
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    /* margin:10% 25%; */
+}
+div.list-wrapper>.item-list{
+    /* border: 1px solid blue; */
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dbdbdb;
+    transition: all .33s ease-in-out;
+    cursor: pointer;
+}
+div.list-wrapper>.item-list>a{
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #dbdbdb;
+}
+div.list-wrapper>.item-list>a>span{
+    color: #383838;
+}
+div.list-wrapper>.item-list>a>div.arrow-icon{
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div.list-wrapper>.item-list:hover .arrow-icon{
+    background-color: #c6dc55;
+}
+
+/* list wrapper ends here  */
+
+
+
+
+#wrapper-Q2{
+    height: 75vh;
+    width: 80%;
+    background-image: url("/img/other-bg/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 0px;
+    margin-bottom: 0%; */
+    /* z-index: 99; */
+    position: absolute;
+    top: -20%;
+    right: 0px;
+    /* unmute here */
+    /* display: none; */
+}
+
+.footer-bg-img2{
+    height: 120vh;
+    background-image: url("/img/footer-bg/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 20%;
+}
+/* Services Us page ends here */

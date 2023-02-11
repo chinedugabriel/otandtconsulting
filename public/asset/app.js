@@ -43,3 +43,4 @@ openButtonNav.addEventListener('click',btnOpen);
 
 let placeYear = document.getElementById('show-year');
 
+// this veriable are used in the home butt
