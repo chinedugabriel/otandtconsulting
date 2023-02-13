@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <section class="home-sec" style="background-image: url('img/main/background.png')">
+    <section class="home-sec animate__animated animate__fadeIn animate__slow" style="background-image: url('img/main/background.png')">
         <div class="container ">
             <div class="row ">
                 <div class="col-md-12  text-center hero-section">
@@ -12,7 +12,9 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <button>Watch Video</button>
+                    <a href="{{url("/vid/oat1.mp4")}}">
+                        <button>Watch Video</button>
+                    </a>
                 </div>
             </div>
             <div class="row">

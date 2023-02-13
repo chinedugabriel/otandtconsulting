@@ -27,11 +27,14 @@
         
         <!-- Google icons -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+        <!-- Anime.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     </head>
     <body>
         <nav>
-            <div class="nav-list" id="nav-list">
+            <div class="nav-list animate__animated  animate__fadeInDown" id="nav-list">
                 <div class="simple-view-nav" id="simple-vaiew-nav">
                     <a href="{{url("/")}}">
                         <svg width="160" height="45" viewBox="0 0 160 45" fill="none" class="header-logo--large" xmlns="http://www.w3.org/2000/svg">
@@ -47,29 +50,29 @@
                 </div>
                 <div class="sec-nav-list">
                     <ul>
-                        <li>
+                        <li class="animate__animated animate__fadeInUp animate__delay-3s">
                             <a href='{{url("/services")}}'>
                                 Service
                             </a>
                         </li>
-                        <li>
+                        <li class="animate__animated animate__fadeInUp animate__delay-2s">
                             <a href="{{url("/projects")}}">
                                 Projects
                             </a>
                         </li>
-                        <li>
+                        <li class="animate__animated animate__fadeInUp animate__delay-1s">
                             <a href="{{url("/about")}}">
                                 About
                             </a>
                         </li>
-                        <li>
+                        <li class="animate__animated animate__fadeInUp animate__slow">
                             <a href="{{url("/contact")}}">
                                 Contact
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="nav-caption">
+                <div class="nav-caption animate__animated animate__fadeInUp animate__slow">
                     <p>
                         <a href="{{url("/HumanCapitalDevelopment")}}">
                             Human Capital Development
