@@ -12,10 +12,14 @@ let nav_wrapper_menu2 = document.getElementById('nav-wrapper');
 function btnClose(){
 
             // green_slide_show.style.display='none';
-
-            nav_list_section.style.display="none";
+            nav_list_section.classList.add("animate__fadeOutUp");
+            setTimeout(()=>{
+                nav_list_section.style.display="none";
+                nav_list_section.classList.remove("animate__fadeOutUp");
+            },1000)
 
     nav_wrapper_menu2.style.display='flex';
+
     
 }
 

@@ -50,22 +50,22 @@
                 </div>
                 <div class="sec-nav-list">
                     <ul>
-                        <li class="animate__animated animate__fadeInUp animate__delay-3s">
+                        <li class="animate__animated animate__fadeInUp animate__slow">
                             <a href='{{url("/services")}}'>
                                 Service
                             </a>
                         </li>
-                        <li class="animate__animated animate__fadeInUp animate__delay-2s">
+                        <li class="animate__animated animate__fadeInUp animate__delay-1s">
                             <a href="{{url("/projects")}}">
                                 Projects
                             </a>
                         </li>
-                        <li class="animate__animated animate__fadeInUp animate__delay-1s">
+                        <li class="animate__animated animate__fadeInUp animate__delay-2s">
                             <a href="{{url("/about")}}">
                                 About
                             </a>
                         </li>
-                        <li class="animate__animated animate__fadeInUp animate__slow">
+                        <li class="animate__animated animate__fadeInUp animate__delay-3s">
                             <a href="{{url("/contact")}}">
                                 Contact
                             </a>
