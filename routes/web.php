@@ -29,5 +29,8 @@ Route::get('/contact',[PagesController::class,'contact']);
 // project route
 Route::get('/projects',[PagesController::class,'projects']);
 
+// Human Capital Development route
+Route::get('/HumanCapitalDevelopment',[PagesController::class,'HumanCapitalDevelopment']);
+
 // carriers route
-Route::get('/carriers',[PagesController::class,'carriers']);
+// Route::get('/carriers',[PagesController::class,'carriers']);

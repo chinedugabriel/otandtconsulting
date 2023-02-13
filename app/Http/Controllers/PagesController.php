@@ -23,9 +23,12 @@ class PagesController extends Controller
     public function projects(){
         return view('/pages.projects');
     }
-    public function carriers(){
-        return view('/pages.carriers');
+    public function HumanCapitalDevelopment(){
+        return view('/pages.HumanCapitalDevelopment');
     }
+    // public function carriers(){
+    //     return view('/pages.carriers');
+    // }
 
 }
 

@@ -71,13 +71,8 @@
                 </div>
                 <div class="nav-caption">
                     <p>
-                        <a href="">
-                            Human Capital
-                        </a>
-                    </p>
-                    <p>
-                        <a href="">
-                            Development
+                        <a href="{{url("/HumanCapitalDevelopment")}}">
+                            Human Capital Development
                         </a>
                     </p>
                     <p>
@@ -85,9 +80,9 @@
                              Watch Video
                         </a>
                     </p>
-                    <p>
+                    {{-- <p>
                         <a href="">Contact Us</a>
-                    </p>
+                    </p> --}}
                 </div>
             </div>
             {{-- this green div is used for transistion between the navigation --}}

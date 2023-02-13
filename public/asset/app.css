@@ -5,6 +5,16 @@
     padding: 0px;
     margin: 0px;
 }
+a{
+    text-decoration: none;
+    color: #cbbea9;
+
+}
+a:hover{
+    text-decoration: none;
+    color: #bbaf9d;
+
+}
 
 body{
     color: #e2d4dc;
@@ -12,7 +22,7 @@ body{
     width: 100%;
     height: 100vh;
     font-family: 'Familjen Grotesk','Poppins','Raleway', sans-serif;
-    
+    overflow-x: hidden;
 }
 
 /* ScrollBar style */
@@ -562,3 +572,103 @@ div.list-wrapper>.item-list:hover .arrow-icon{
     padding-top: 20%;
 }
 /* Services Us page ends here */
+
+/* projects starts here */
+
+ /* list wrapper starts here  */
+div.list-wrapper-projects{
+    /* border:2px solid red; */
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    /* margin:10% 25%; */
+    
+}
+
+div.list-wrapper-projects>.item-list{
+    /* border: 1px solid blue; */
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dbdbdb;
+    transition: all .33s ease-in-out;
+    cursor: pointer;
+}
+div.list-wrapper-projects>.item-list>a{
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #dbdbdb;
+}
+div.list-wrapper-projects>.item-list>a>span{
+    color: #383838;
+}
+div.list-wrapper-projects>.item-list>a>div.arrow-icon{
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #dbdbdb !important;
+}
+
+div.list-wrapper-projects>.item-list:hover .arrow-icon{
+    background-color: #c6dc55;
+}
+
+/* list wrapper ends here  */
+
+
+/* projects page ends here */
+
+/* HumanCapitalDevelopment starts here */
+section.dark-sec-HCD{
+    background-color: #1d1d1d;
+    height: 200vh;
+}
+
+.dark-green-text{
+    color: #3c5427;
+}
+.internship-text{
+    font-size:150px;
+}
+
+#wrapper-Q-HCD{
+    /* height: 100vh; */
+    width: 90vw;
+    /* background-image: url("/img/other-bg/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: #3c5427;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: left;
+    /* margin-left: -50%; */
+    margin-top: -10%;
+    /* margin-bottom: 10%; */
+    z-index: 1;
+}
+
+#wrapper-Q-HCD .hcd-text-wrapper-content{
+font-size: 20px;
+line-height: 40px;
+}
+#wrapper-Q-HCD .hcd-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* HumanCapitalDevelopment ends here */
