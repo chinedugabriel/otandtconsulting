@@ -77,7 +77,7 @@
                     </p>
 
                     <p>
-                        <a href="#">
+                        <a href="{{url("/vid/oat1.mp4")}}">
                              Watch Video
                         </a>
                     </p>
