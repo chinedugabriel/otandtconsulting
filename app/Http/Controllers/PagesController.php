@@ -39,44 +39,44 @@ class PagesController extends Controller
     // Project function routes starts here
 
     public function ITS_Implementation(){
-        return view('/project.ITSI');
+        return view('/projects.ITSI');
     }
 
     public function BusinessTechnologyInvestmentAdvise(){
-        return view('/project.BusinessTechnologyInvestmentAdvise');
+        return view('/projects.BusinessTechnologyInvestmentAdvise');
     }
 
     public function SoftwareDevelopmentandImplementation(){
-        return view('/project.SoftwareDevelopmentandImplementation');
+        return view('/projects.SoftwareDevelopmentandImplementation');
     }
 
     public function SelfServiceportal(){
-        return view('/project.SelfServiceportal');
+        return view('/projects.SelfServiceportal');
     }
     
     public function ValueAddedServiceServiceDeliveryPortal(){
-        return view('/project.ValueAddedServiceServiceDeliveryPortal');
+        return view('/projects.ValueAddedServiceServiceDeliveryPortal');
     }
     
     public function DataCenterMigration(){
-        return view('/project.DataCenterMigration');
+        return view('/projects.DataCenterMigration');
     }
     
     public function SubscriberRegistration(){
-        return view('/project.SubscriberRegistration');
+        return view('/projects.SubscriberRegistration');
     }
 
     public function KnowYourCustomerSystemDevelopment(){
-        return view('/project.KnowYourCustomerSystemDevelopment');
+        return view('/projects.KnowYourCustomerSystemDevelopment');
     }
 
 
     public function Rebranding(){
-        return view('/project.Rebranding');
+        return view('/projects.Rebranding');
     }
 
     public function ProcessAutomationAndDataSolutions(){
-        return view('/project.ProcessAutomationAndDataSolutions');
+        return view('/projects.ProcessAutomationAndDataSolutions');
     }
 
 

@@ -60,4 +60,6 @@ Route::get('/SubscriberRegistration',[PagesController::class,'SubscriberRegistra
 
 Route::get('/KnowYourCustomerSystemDevelopment',[PagesController::class,'KnowYourCustomerSystemDevelopment']);
 
+Route::get('/Rebranding',[PagesController::class,'Rebranding']);
+
 Route::get('/ProcessAutomationAndDataSolutions',[PagesController::class,'ProcessAutomationAndDataSolutions']);
