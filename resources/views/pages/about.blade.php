@@ -82,29 +82,31 @@
             <div class="col-md-8 offset-md-4 py-5 my-5 bg-light " >
                 <div class="row my-5 ">
                     <div class="col-md-12  d-flex flex-row justify-content-center align-items-center h-100" >
-                        <div class="card-info green-bg m-2">
-                            {{-- <img src="img/lanre.jpeg" alt="" class="img-fluid" style="width:580px; height:640px;"> --}}
-                            <div class="about-name">
-                                <h3 class="green-text">
-                                    Lanre Kuye
-
-                                </h3>
-                                <p>
-                                    General managing partner
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card-info m-2">
-                            {{-- <img src="" alt="" class="img-fluid"> --}}
-                            <div class="about-name">
-                                <h3 class="green-text">
-                                    Grace Aba Ayensu
-                                </h3>
-                                <p>
-                                    Managing partner - Ghana
-                                </p>
-                            </div>
-                        </div>
+                        <a href="/lanre" class="card-info card-info-1 green-bg m-2">
+                            <div class="overlay"></div>
+                                {{-- <img src="img/lanre.jpeg" alt="" class="img-fluid" style="width:580px; height:100%;"> --}}
+                                <div class="about-name">
+                                    <h3 class="dark-green-text">
+                                        Lanre Kuye
+    
+                                    </h3>
+                                    <p>
+                                        General managing partner
+                                    </p>
+                                </div>
+                        </a>
+                        <a href="/grace" class="card-info card-info-2 m-2">
+                            <div class="overlay"></div>
+                                {{-- <img src="img/lanre.jpeg" alt="" class="img-fluid" style="width:580px; height:100%;"> --}}
+                                <div class="about-name">
+                                    <h3 class="dark-green-text">
+                                        Grace Aba Ayensu
+                                    </h3>
+                                    <p>
+                                        Managing partner - Ghana
+                                    </p>
+                                </div>
+                        </a>
 
                     </div>
                 </div>

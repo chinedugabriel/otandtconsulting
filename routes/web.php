@@ -32,5 +32,32 @@ Route::get('/projects',[PagesController::class,'projects']);
 // Human Capital Development route
 Route::get('/HumanCapitalDevelopment',[PagesController::class,'HumanCapitalDevelopment']);
 
+// Lanre Profile route
+Route::get('/lanre',[PagesController::class,'profileLanre']);
+
+// Grace Profile route
+Route::get('/grace',[PagesController::class,'profileGrace']);
+
 // carriers route
 // Route::get('/carriers',[PagesController::class,'carriers']);
+
+
+// Project routes starts here
+
+Route::get('/IntelligentTransportationSystemImplementation',[PagesController::class,'ITS_Implementation']);
+
+Route::get('/BusinessTechnologyInvestmentAdviseation',[PagesController::class,'BusinessTechnologyInvestmentAdvise']);
+
+Route::get('/SoftwareDevelopmentandImplementation',[PagesController::class,'SoftwareDevelopmentandImplementation']);
+
+Route::get('/SelfServiceportal',[PagesController::class,'SelfServiceportal']);
+
+Route::get('/ValueAddedServiceServiceDeliveryPortal',[PagesController::class,'ValueAddedServiceServiceDeliveryPortal']);
+
+Route::get('/DataCenterMigration',[PagesController::class,'DataCenterMigration']);
+
+Route::get('/SubscriberRegistration',[PagesController::class,'SubscriberRegistration']);
+
+Route::get('/KnowYourCustomerSystemDevelopment',[PagesController::class,'KnowYourCustomerSystemDevelopment']);
+
+Route::get('/ProcessAutomationAndDataSolutions',[PagesController::class,'ProcessAutomationAndDataSolutions']);
