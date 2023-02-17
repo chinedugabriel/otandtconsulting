@@ -14,6 +14,7 @@
                             </h3> --}}
                             <p class="text-left  ">
                                 When Airtel acquired its own data centre and needed a migration of applications from the old servers to new ones, our team of highly skilled experts were requested. OT&T ensured a successful and seamless move resulting in minimal downtime and have continued to maintain their business’ stability.
+                            </p>
                         </div>
                     </div>
 

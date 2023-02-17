@@ -14,6 +14,7 @@
                             </h3> --}}
                             <p class="text-left  ">
                                 Airtel Nigeria has taken advantage of OT&T’s services to develop an application built for activating registered subscribers effortlessly. We have also developed for them an offline solution for processing data from decommissioned client systems. Our web service captures details of both new and existing subscribers and is used by Airtel’s KYC clients to synchronize data with a biometric verification system. Subscribers can now simply activate their subscription via SMS, with minimal stress.
+                            </p>
                         </div>
                     </div>
 

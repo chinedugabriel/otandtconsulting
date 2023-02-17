@@ -14,6 +14,7 @@
                             </h3> --}}
                             <p class="text-left  ">
                                 Our team has also developed a web portal where subscribers can initiate their phone network registration process and have been contracted to provide high-end support for the lifetime of the system.
+                            </p>
                         </div>
                     </div>
 
