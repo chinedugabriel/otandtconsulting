@@ -36,7 +36,7 @@
         <nav>
             <div class="nav-list animate__animated  animate__fadeInDown" id="nav-list">
                 <div class="simple-view-nav" id="simple-vaiew-nav">
-                    <a href="{{url("/about")}}" class="d-flex flex-md-row justify-content-center align-items-center" >
+                    <a href="{{url("/projects")}}" class="d-flex flex-md-row justify-content-center align-items-center" >
                         <span class="material-symbols-outlined">
                             arrow_back
                             </span>
@@ -97,7 +97,7 @@
 
             <div class="nav-wrapper" id="nav-wrapper">
                 <div class="simple-view-nav" id="simple-vaiew-nav">
-                    <a href="{{url("/about")}}" class="d-flex flex-md-row justify-content-center align-items-center" >
+                    <a href="{{url("/projects")}}" class="d-flex flex-md-row justify-content-center align-items-center" >
                         <span class="material-symbols-outlined">
                             arrow_back
                             </span>

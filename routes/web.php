@@ -46,7 +46,7 @@ Route::get('/grace',[PagesController::class,'profileGrace']);
 
 Route::get('/IntelligentTransportationSystemImplementation',[PagesController::class,'ITS_Implementation']);
 
-Route::get('/BusinessTechnologyInvestmentAdviseation',[PagesController::class,'BusinessTechnologyInvestmentAdvise']);
+Route::get('/BusinessTechnologyInvestmentAdvise',[PagesController::class,'BusinessTechnologyInvestmentAdvise']);
 
 Route::get('/SoftwareDevelopmentandImplementation',[PagesController::class,'SoftwareDevelopmentandImplementation']);
 
