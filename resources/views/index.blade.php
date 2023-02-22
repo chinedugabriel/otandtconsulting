@@ -17,11 +17,11 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-md-12 text-center sub-indecate" >
                     <p>Swipe to explore</p>
                 </div>
-            </div>
+            </div> --}}
         </div>
 
         <div class="arrow-nav">
