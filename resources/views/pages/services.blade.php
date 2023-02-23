@@ -39,15 +39,15 @@
 
     </section>
 
-<section class="dark-sec py-5">
-    <div class="container-fluid my-5">
-        <div class="row px-5">
-            <div class="col-md-4 offset-md-1">
-                <h3>
+<section class="dark-sec py-lg-5 pt-sm-3">
+    <div class="container-fluid my-lg-5 my-sm-3">
+        <div class="row px-lg-5">
+            <div class="col-sm-12 col-lg-4 offset-lg-1">
+                <h4>
                     OT&T is a premier African business <span class="green-text">technology consulting</span> firm. We analyse, develop, and implement solutions using technology and <span class="green-text"> information systems </span> for our customers. Our goal is to reduce the risks in business and enable our clients to achieve their <span class="green-text"> strategic goals.</span>
                 </h3>
             </div>
-            <div class="col-md-4 offset-md-1">
+            <div class="cl-sm-12 col-lg-4 offset-lg-1">
                 <p style="font-size:18px;">
                     Information technology is a critical component to any intelligent business operation. We’ve assembled a leading team of experts with the depth and diversity of skills to leverage sophisticated technology implemented for our clients, resulting in improved performance and competitiveness within their industries.
                 </p>
@@ -66,7 +66,7 @@
 
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-md-8 my-5 bg-light pt-5" style="height:95vh;">
+            <div class="col-sm-12 col-lg-8 my-lg-5 my-sm-3 bg-light pt-5" style="auto;">
                 <div class="row my-5 d-flex flex-column justify-content-around">
                     <div class="col-md-8 offset-md-2 d-flex align-items-center justify-content-around" >
                         <div class="list-wrapper">
@@ -143,33 +143,38 @@
             </div>
         </div>
     </div>
+    <div class="row move-down-footer">
+        <div class="col-sm-12 col-lg-9 offset-lg-3">
+            <div  id="wrapper-Q2">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            Request for quote
+                        </h1>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="wrap-text-about">
+                        <p>
+                            We are incredibly responsive to your requests and value your questions. Contact us today for a quote and learn more on how to employ our services.
+                        </p>
+            
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="border border-bottom-1 border-top-0 border-right-0 border-left-0 pb-2 text-left" style="font-size:18px;">
+                            Contact Us
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 <section class="footer-bg-img2">
     
-        <div  id="wrapper-Q2">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>
-                        Request for quote
-                    </h1>
-                </div>
-            </div>
-            <div class="row my-3">
-                <div class="wrap-text-about">
-                    <p>
-                        We are incredibly responsive to your requests and value your questions. Contact us today for a quote and learn more on how to employ our services.
-                    </p>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="border border-bottom-1 border-top-0 border-right-0 border-left-0 pb-2 text-left" style="font-size:18px;">
-                        Contact Us
-                    </p>
-                </div>
-            </div>
-        </div>
 
 
     <div class="footer-wrapper ">

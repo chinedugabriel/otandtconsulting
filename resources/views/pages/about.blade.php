@@ -39,13 +39,13 @@
 
     </section>
 
-<section class="dark-sec py-5">
+<section class="dark-sec py-lg-5 pt-sm-3">
     <div class="container my-5">
         <div class="row">
             <div class="col-md-12">
-                <h3>
+                <h4>
                     OT&T is a premier African business <span class="green-text">technology consulting</span> firm. We analyse, develop, and implement solutions using technology and <span class="green-text"> information systems </span> for our customers. Our goal is to reduce the risks in business and enable our clients to achieve their <span class="green-text"> strategic goals.</span>
-                </h3>
+                </h4>
             </div>
         </div>
         <div class="row">
@@ -64,12 +64,12 @@
                 <img src="" alt="">
             </div>
             <div class="col-md-9">
-                <p style="font-size:28px;">
+                <p style="font-size:20px;">
                     At OT&T, we leverage global strategic partnerships to optimise competitive advantages for our customers. We support our clients to maximise their capabilities and to improve their customer experience, which leads to increased revenue generation.
                 </p>
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="border border-bottom-1 border-top-0 border-right-0 border-left-0 pb-2 text-center" style="width: 15%; font-size:18px;">
+                        <p class="border border-bottom-1 border-top-0 border-right-0 border-left-0 pb-2 text-center" style="width:17%; font-size:18px;">
                             Our People
                         </p>
                     </div>
@@ -77,12 +77,12 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid  my-5 ">
+    <div class="container-fluid  my-lg-5 ">
         <div class="row">
-            <div class="col-md-8 offset-md-4 py-5 my-5 bg-light " >
+            <div class="col-sm-12 col-lg-8 offset-lg-4 py-5 my-lg-5 bg-light " >
                 <div class="row my-5 ">
-                    <div class="col-md-12  d-flex flex-row justify-content-center align-items-center h-100" >
-                        <a href="/lanre" class="card-info card-info-1 green-bg m-2">
+                    <div class="col-md-12  d-flex flex-row flex-wrap justify-content-center align-items-center h-100" >
+                        <a href="/lanre" class="card-info card-info-1 green-bg m-2 text-decoration-none">
                             <div class="overlay"></div>
                                 {{-- <img src="img/lanre.jpeg" alt="" class="img-fluid" style="width:580px; height:100%;"> --}}
                                 <div class="about-name">
@@ -95,7 +95,7 @@
                                     </p>
                                 </div>
                         </a>
-                        <a href="/grace" class="card-info card-info-2 m-2">
+                        <a href="/grace" class="card-info card-info-2 m-2 text-decoration-none">
                             <div class="overlay"></div>
                                 {{-- <img src="img/lanre.jpeg" alt="" class="img-fluid" style="width:580px; height:100%;"> --}}
                                 <div class="about-name">

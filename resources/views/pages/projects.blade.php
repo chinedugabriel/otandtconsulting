@@ -7,7 +7,7 @@
             <div class="row ">
                 <div class="col-md-12  text-center hero-section">
                     <h1>Projects</h1>
-                    <p>OT&T is a premier African IT consulting firm. We are committed to accelerating our client’s digital transformation.</p>
+                    <p class="h4-lg">OT&T is a premier African IT consulting firm. We are committed to accelerating our client’s digital transformation.</p>
                 </div>
             </div>
             {{-- <div class="row">
@@ -41,13 +41,13 @@
 
 <section class=" green-bg pt-5">
     <div class="container-fluid my-5">
-        <div class="row px-5">
-            <div class="col-md-4 offset-1">
-                <h2>
+        <div class="row px-lg-5">
+            <div class="col-sm-12 col-lg-4 offset-lg-1">
+                <h3>
                     OT&T works to <span class="green-text"> transform</span> our global client's businesses,<span class="green-text"> building</span> a reliable brand and maintaining<span class="green-text"> long-lasting</span> relationships with all our customers.
                 </h2>
             </div>
-            <div class="col-md-4 offset-2">
+            <div class="col-sm-12 col-lg-4 offset-lg-2 mt-sm-3 px-sm-2">
                 <p style="font-size:20px;">
                     We have partnered with the likes of the Lagos Metropolitan Area Transport Authority (LAMATA), to implement West Africa's first ever Intelligent Transportation System and Airtel, to rebrand their Nigerian subsidiary. Accelerating digital transformation is only just beginning. Learn more about our past projects below.
                 </p>
@@ -66,7 +66,7 @@
     
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-md-8 mt-5 bg-light pt-5" style=" margin-bottom:0px;">
+            <div class="col-sm-12 col-lg-8 mt-lg-5 bg-light pt-5" style=" margin-bottom:0px;">
                 {{-- <div class="container"> --}}
                     <div class="row my-5">
                         <div class="col-md-8 offset-md-2 text-dark">
@@ -78,7 +78,7 @@
                     <div class="col-md-8 offset-md-2 d-flex align-items-center justify-content-around pb-3" >
                         <div class="list-wrapper-projects py-3">
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/IntelligentTransportationSystemImplementation">
                                         <span>
                                             Intelligent Transportation System (ITS) Implementation
                                         </span>
@@ -91,7 +91,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/BusinessTechnologyInvestmentAdvise">
                                         <span>
                                             Business Technology Investment Advise
                                         </span>
@@ -104,7 +104,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/SoftwareDevelopmentandImplementation">
                                         <span>
                                             Software Development and Implementation
                                         </span>
@@ -117,7 +117,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/SelfServiceportal">
                                         <span>
                                             Self-service portal
                                         </span>
@@ -130,7 +130,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/ValueAddedServiceServiceDeliveryPortal">
                                         <span>
                                             Value Added Service-Service Delivery Portal (VAS-SDP)
                                         </span>
@@ -143,7 +143,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/DataCenterMigration">
                                         <span>
                                             Data Center Migration
                                         </span>
@@ -156,7 +156,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/SubscriberRegistration">
                                         <span>
                                             Subscriber registration
                                         </span>
@@ -169,7 +169,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/KnowYourCustomerSystemDevelopment">
                                         <span>
                                             Know Your Customer (KYC) system development
                                         </span>
@@ -182,7 +182,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/Rebranding">
                                         <span>
                                             Rebranding
                                         </span>
@@ -195,7 +195,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/ProcessAutomationAndDataSolutions">
                                         <span>
                                             Process Automation and Data Solutions
                                         </span>
@@ -222,7 +222,7 @@
             <div class="container ">
                 <div class="row ">
                     <div class="col-md-12  text-center hero-section">
-                        <h1>Discover who we are</h1>
+                        <h3>Discover who we are</h1>
                         <div class="mt-5" style="width:100%; display:flex; justify-content:center;">
                             <a href="{{url("/about")}}" class="button button-rounded button-rounded--primary">
                                 <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
