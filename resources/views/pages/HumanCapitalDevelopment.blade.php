@@ -2,10 +2,10 @@
 
 @section('content')
 
-    <section class="home-sec" style="background-image: url('img/main/background.png')">
+    <section class="home-sec" style="background-image: url('img/main/background.png');">
         <div class="container ">
             <div class="row ">
-                <div class="col-md-12  text-center hero-section">
+                <div class="col-sm-12 col-lg-12 col-md-12  text-center hero-section">
                     <h1>Special Focus Area: Human Capital Developments</h1>
                     <p>We take special interest in furthering IT literacy and maximising human capital potential within Africa..</p>
                 </div>
@@ -39,11 +39,11 @@
 
     </section>
 
-<section class="dark-sec-HCD py-5">
-    <div class="container my-5">
+<section class="dark-sec-HCD py-lg-5 pt-3">
+    <div class="container my-lg-5 my-3">
         <div class="row">
             <div class="col-md-12">
-                <p style="font-size:25px;">
+                <p style="font-size:20px;">
                     At OAK Telecom and Technology Consulting Limited, we are dedicated to solving the issue of lacking skills and experience across the region.
                 </p>
             </div>
@@ -51,11 +51,11 @@
         
     </div>
 
-    <div class="container-fluid  my-5 ">
+    <div class="container-fluid  my-lg-5 px-3 px-md-0">
         <div class="row">
-            <div class="col-md-11 offset-md-1 py-5 my-5 bg-light " >
-                <div class="row my-5">
-                    <div class="col-md-9 offset-md-2 dark-green-text">
+            <div class="col-sm-12 col-md-12 col-lg-11 offset-lg-1 py-2 py-lg-5 my-lg-5 bg-light " >
+                <div class="row my-lg-5">
+                    <div class="col-sm-12 col-md-12 col-lg-9 offset-lg-2 dark-green-text">
                         <div class="row">
                             <div class="col-md-12 text-left">
                                 <h1 class="internship-text">
@@ -63,8 +63,8 @@
                                 </h1>
                             </div>
                         </div>
-                        <div class="row my-5">
-                            <div class="col-md-7 pl-2">
+                        <div class="row my-lg-5 mt-2">
+                            <div class="col-md-7 ">
                                 <p>
                                     At OT&T, we value the development of the minds and talents of African youth. In 2005, we formed and internship project with the University of Lagos and added Caleb University to the project in 2015 with prospects of again expanding our program in 2021. Our facility, EvolveITAfrica, was established with the specific purpose of engaging resources on an internship basis and applying them to real life development projects.
                                 </p>
@@ -91,17 +91,17 @@
             </div>
         </div>
     </div>
-    <div class="row py-5 mb-5">
-        <div  id="wrapper-Q-HCD" class="py-5">
-            <div class="row mb-5 my-5">
-                <div class="col-md-9 offset-md-2 text-left">
+    <div class="row py-lg-5 mb-lg-5 px-3 px-md-0">
+        <div  id="wrapper-Q-HCD" class="py-lg-5 px-3">
+            <div class="row mb-5 my-lg-5">
+                <div class="col-sm-12 col-md-12 col-lg-9 offset-lg-2 text-left mb-0 p-3">
                     <h1 class="internship-text">
                         Careers
                     </h1>
                 </div>
             </div>
-            <div class="row my-5">
-                <div class="col-md-8 offset-md-2 pl-5">
+            <div class="row my-lg-5 my-0">
+                <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2 pl-lg-5 ">
                     <p class=" hcd-text-wrapper-content">
                         We work with some of the most diverse clients and are always on the look-out for talented professionals to add to our team of world-class experts. If you’re ready to be at the forefront of Africa’s digital transformation, pick up new skills, and learn from intelligent and motivated people? Get in touch with us to see how you can further your career here at OT&T.
                     </p>
@@ -109,8 +109,8 @@
                 </div>
             </div>
             <div class="row my-5">
-                <div class="col-md-8 offset-md-2 text-center hcd-text-wrapper">
-                    <p class="border border-bottom-1 border-top-0 border-right-0 border-left-0 pb-2 text-center" style="font-size:18px; width:10%; ">
+                <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2 text-center hcd-text-wrapper">
+                    <p class="border border-bottom-1 border-top-0 border-right-0 border-left-0 pb-2 text-center" style="font-size:18px; ">
                         Our People
                     </p>
                 </div>

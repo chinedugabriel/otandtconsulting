@@ -5,13 +5,13 @@
 <section class="profile-sec">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-sm-12 green-bg-light d-flex flex-md-row justify-content-center align-items-center pt-3">
-                <img src="img/lanre.jpeg" alt="" class="img-fluid img-thumbnail h-75 ">
+            <div class="col-lg-6 col-md-12 col-sm-12 green-bg-light d-flex flex-md-row justify-content-center align-items-center pt-md-3 pt-5 pt-md-0 pt-lg-0" style="height:100vh;">
+                <img src="img/lanre.jpeg" alt="" class="img-fluid img-thumbnail h-75 mt-5 mt-md-0">
             </div>
-            <div class="col-md-6 col-sm-12 d-flex flex-md-column justify-content-around align-items-center text-dark  ">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-md-column justify-content-around align-items-center text-dark  ">
                 <div class="scroll-description">
                     <div class="row w-100 p-0">
-                        <div class="col-md-4 offset-md-2 ">
+                        <div class="col-md-4 offset-md-2 mb-3">
                             <h2 style=" padding:0px; margin:0px;">
                                 Lanre Kuye
                             </h2>

@@ -335,7 +335,7 @@ div.arrow-nav{
 
 
 /* About Us page starts here */
-section.dark-sec{
+.dark-sec{
     background-color: #1d1d1d;
 }
 /* section.darck-sec>.container>.row>.col-md-12>h3{
@@ -655,14 +655,19 @@ nav>.nav-list>.simple-view-nav>a{
 /* nav>.nav-list>.simple-view-nav ends here*/
 
 
+/* section.profile-sec starts here */
+
+.img-grace{
+    width: 55%;
+}
 
 section.profile-sec{
     /* height: 0vh ; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 section.profile-sec>.container-fluid>.row>.col-md-6{
     height: 99.5vh ;
-    border: 2px solid rgb(0, 255, 149) !important;
+    /* border: 2px solid rgb(0, 255, 149) !important; */
 }
 
 .scroll-description{
@@ -682,7 +687,9 @@ section.profile-sec>.container-fluid>.row>.col-md-6{
 
 
 /* project page starts here */
-
+.project-body-height{
+    height: 100vh;
+}
 /* project page ends here */
 
 
@@ -706,12 +713,17 @@ a:hover{
     color: #bbaf9d;
 
 }
-
+html{
+    width: auto;
+    height: auto;
+    padding: 0px;
+    overflow-x: hidden;
+}
 body{
     color: #e2d4dc;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     font-family: 'Familjen Grotesk','Poppins','Raleway', sans-serif;
     overflow-x: hidden;
 }
@@ -1299,12 +1311,12 @@ section.dark-sec-HCD{
     color: #3c5427;
 }
 .internship-text{
-    font-size:150px;
+    font-size:40px;
 }
 
 #wrapper-Q-HCD{
-    /* height: 100vh; */
-    width: 90vw;
+    height: 83vh;
+    width: auto;
     /* background-image: url("/img/other-bg/background.png");
     background-size: cover;
     background-position: center;
@@ -1315,14 +1327,16 @@ section.dark-sec-HCD{
     justify-content: center;
     align-items: left;
     /* margin-left: -50%; */
-    margin-top: -10%;
+    margin-top: 0px;
     /* margin-bottom: 10%; */
     z-index: 1;
+    position: static;
 }
 
 #wrapper-Q-HCD .hcd-text-wrapper-content{
-font-size: 20px;
+font-size: 16px;
 line-height: 40px;
+margin-top: 0px;
 }
 #wrapper-Q-HCD .hcd-text-wrapper{
     display: flex;
@@ -1345,26 +1359,33 @@ nav>.nav-list>.simple-view-nav>a{
 /* nav>.nav-list>.simple-view-nav ends here*/
 
 
+/* section.profile-sec starts here */
+
+.img-grace{
+    width: 95%;
+}
 
 section.profile-sec{
     /* height: 0vh ; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 section.profile-sec>.container-fluid>.row>.col-md-6{
-    height: 99.5vh ;
-    border: 2px solid rgb(0, 255, 149) !important;
+    height: auto ;
+    /* border: 2px solid rgb(0, 255, 149) !important; */
 }
 
 .scroll-description{
     /* overflow-y: scroll; */
     overflow-x: hidden;
-    height: 100%;
+    /* height: 100%; */
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-flow: column wrap;
     padding-top: 50px;
+    margin-bottom: 30px !important;
 
 }
 
@@ -1372,9 +1393,10 @@ section.profile-sec>.container-fluid>.row>.col-md-6{
 
 
 /* project page starts here */
-
+.project-body-height{
+    height: auto;
+}
 /* project page ends here */
 
-}
 
 /* mobile version ends here */

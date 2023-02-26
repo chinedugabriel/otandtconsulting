@@ -32,8 +32,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     </head>
-    <body>
-        <nav>
+    <body class="dark-sec">
+        <nav class="nav navbar-nav mb-sm-2">
             <div class="nav-list animate__animated  animate__fadeInDown" id="nav-list">
                 <div class="simple-view-nav" id="simple-vaiew-nav">
                     <a href="{{url("/projects")}}" class="d-flex flex-md-row justify-content-center align-items-center" >

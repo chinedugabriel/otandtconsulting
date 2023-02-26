@@ -39,8 +39,8 @@
 
     </section>
 
-<section class="dark-sec py-lg-5 pt-sm-3">
-    <div class="container my-5">
+<section class="dark-sec py-lg-5 pt-sm-3 pt-3">
+    <div class="container my-md-5 ">
         <div class="row">
             <div class="col-md-12">
                 <h4>
@@ -58,7 +58,7 @@
             </div>
         </div>
     </div>
-    <div class="container my-5">
+    <div class="container my-md-5">
         <div class="row my-5">
             <div class="col-md-3 border border-light">
                 <img src="" alt="">
@@ -79,7 +79,7 @@
     </div>
     <div class="container-fluid  my-lg-5 ">
         <div class="row">
-            <div class="col-sm-12 col-lg-8 offset-lg-4 py-5 my-lg-5 bg-light " >
+            <div class="col-sm-12 col-lg-8 offset-lg-4 py-md-5 my-lg-5 bg-light " >
                 <div class="row my-5 ">
                     <div class="col-md-12  d-flex flex-row flex-wrap justify-content-center align-items-center h-100" >
                         <a href="/lanre" class="card-info card-info-1 green-bg m-2 text-decoration-none">
@@ -110,7 +110,7 @@
 
                     </div>
                 </div>
-                <div class="row my-5">
+                <div class="row my-sm-5">
                     <div  id="wrapper-Q">
                         <div class="row">
                             <div class="col-md-12">
