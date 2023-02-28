@@ -40,15 +40,15 @@
     </section>
 
 <section class=" green-bg pt-5">
-    <div class="container-fluid my-5">
+    <div class="container-fluid my-lg-5 my-sm-3 py-3">
         <div class="row px-lg-5">
-            <div class="col-sm-12 col-lg-4 offset-lg-1">
-                <h3>
+            <div class="col-sm-12 col-lg-4 offset-lg-1 my-3 px-4">
+                <h5>
                     OT&T works to <span class="green-text"> transform</span> our global client's businesses,<span class="green-text"> building</span> a reliable brand and maintaining<span class="green-text"> long-lasting</span> relationships with all our customers.
-                </h2>
+                </h5>
             </div>
-            <div class="col-sm-12 col-lg-4 offset-lg-2 mt-sm-3 px-sm-2">
-                <p style="font-size:20px;">
+            <div class="col-sm-12 col-lg-4 offset-lg-2 mt-sm-3 px-sm-2 px-4">
+                <p style="font-size:16px;">
                     We have partnered with the likes of the Lagos Metropolitan Area Transport Authority (LAMATA), to implement West Africa's first ever Intelligent Transportation System and Airtel, to rebrand their Nigerian subsidiary. Accelerating digital transformation is only just beginning. Learn more about our past projects below.
                 </p>
             </div>
@@ -216,7 +216,7 @@
         </div>
     </div>
 </section>
-<section class="footer-bg-img2 py-0 h-100">
+<section class="footer-bg-img2 py-0 ">
     <div class="footer-wrapper ">
         <div class="about-text-wrapper">
             <div class="container ">

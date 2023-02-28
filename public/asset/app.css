@@ -1230,7 +1230,7 @@ div.list-wrapper>.item-list:hover .arrow-icon{
 }
 
 .footer-bg-img2{
-    height: 90vh;
+    height: 50vh;
     background-image: url("/img/footer-bg/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1270,7 +1270,7 @@ div.list-wrapper-projects>.item-list{
 }
 div.list-wrapper-projects>.item-list>a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;

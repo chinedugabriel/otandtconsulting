@@ -45,7 +45,7 @@
             <div class="col-sm-12 col-lg-4 offset-lg-1 my-3 px-4">
                 <h5>
                     OT&T is a premier African business <span class="green-text">technology consulting</span> firm. We analyse, develop, and implement solutions using technology and <span class="green-text"> information systems </span> for our customers. Our goal is to reduce the risks in business and enable our clients to achieve their <span class="green-text"> strategic goals.</span>
-                </h3>
+                </h5>
             </div>
             <div class="cl-sm-12 col-lg-4 offset-lg-1 px-4">
                 <p style="font-size:16px;">
