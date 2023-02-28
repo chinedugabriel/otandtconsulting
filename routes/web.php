@@ -41,6 +41,18 @@ Route::get('/grace',[PagesController::class,'profileGrace']);
 // carriers route
 // Route::get('/carriers',[PagesController::class,'carriers']);
 
+// Service List routes starts here
+Route::get('/technologyInvestmentAdvisory',[PagesController::class,'TechnologyInvestmentAdvisory']);
+
+Route::get('/businessAnalysisAndStrategy',[PagesController::class,'BusinessAnalysisAndStrategy']);
+
+Route::get('/softwareAndApplicationsDevelopment',[PagesController::class,'SoftwareAndApplicationsDevelopment']);
+
+Route::get('/managedService',[PagesController::class,'ManagedService']);
+
+Route::get('/procurement',[PagesController::class,'Procurement']);
+
+
 
 // Project routes starts here
 

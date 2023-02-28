@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -35,6 +36,25 @@ class PagesController extends Controller
     // public function carriers(){
     //     return view('/pages.carriers');
     // }
+
+    // Services List function routes starts here
+    public function TechnologyInvestmentAdvisory(){
+        return View('/service.technologyInvestmentAdvisory');
+    }
+
+    public function BusinessAnalysisAndStrategy(){
+        return View('/service.businessAnalysisAndStrategy');
+    }
+
+    public function SoftwareAndApplicationsDevelopment(){
+        return View('/service.softwareAndApplicationsDevelopment');
+    }
+    public function ManagedService(){
+        return View('/service.managedService');
+    }
+    public function Procurement(){
+        return View('/service.procurement');
+    }
 
     // Project function routes starts here
 

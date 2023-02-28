@@ -71,7 +71,7 @@
                     <div class="col-md-8 offset-md-2 d-flex align-items-center justify-content-around" >
                         <div class="list-wrapper">
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/technologyInvestmentAdvisory">
                                         <span>
                                             Technology Investment Advisory
                                         </span>
@@ -84,7 +84,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/businessAnalysisAndStrategy">
                                         <span>
                                             Business Analysis & Strategy
                                         </span>
@@ -97,7 +97,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/softwareAndApplicationsDevelopment">
                                         <span>
                                             Software & Applications Devlopment
                                         </span>
@@ -110,7 +110,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/managedService">
                                         <span>
                                             Managed Services
                                         </span>
@@ -123,7 +123,7 @@
                                 
                             </div>
                             <div class="item-list">
-                                    <a href="">
+                                    <a href="/procurement">
                                         <span>
                                             Procurement
                                         </span>
