@@ -61,6 +61,7 @@
     <div class="container my-md-5">
         <div class="row my-5">
             <div class="col-md-3 border border-light">
+                {{-- an image goes here --}}
                 <img src="" alt="">
             </div>
             <div class="col-md-9">
