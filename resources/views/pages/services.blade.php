@@ -40,15 +40,15 @@
     </section>
 
 <section class="dark-sec py-lg-5 pt-sm-3">
-    <div class="container-fluid my-lg-5 my-sm-3">
+    <div class="container-fluid my-lg-5 my-sm-3 py-3">
         <div class="row px-lg-5">
-            <div class="col-sm-12 col-lg-4 offset-lg-1">
-                <h4>
+            <div class="col-sm-12 col-lg-4 offset-lg-1 my-3 px-4">
+                <h5>
                     OT&T is a premier African business <span class="green-text">technology consulting</span> firm. We analyse, develop, and implement solutions using technology and <span class="green-text"> information systems </span> for our customers. Our goal is to reduce the risks in business and enable our clients to achieve their <span class="green-text"> strategic goals.</span>
                 </h3>
             </div>
-            <div class="cl-sm-12 col-lg-4 offset-lg-1">
-                <p style="font-size:18px;">
+            <div class="cl-sm-12 col-lg-4 offset-lg-1 px-4">
+                <p style="font-size:16px;">
                     Information technology is a critical component to any intelligent business operation. We’ve assembled a leading team of experts with the depth and diversity of skills to leverage sophisticated technology implemented for our clients, resulting in improved performance and competitiveness within their industries.
                 </p>
             </div>
@@ -182,7 +182,7 @@
             <div class="container ">
                 <div class="row ">
                     <div class="col-md-12  text-center hero-section">
-                        <h1>Discover our case study</h1>
+                        <h2>Discover our case study</h2>
                         <div class="mt-5" style="width:100%; display:flex; justify-content:center;">
                             <a href="" class="button button-rounded button-rounded--primary">
                                 <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">

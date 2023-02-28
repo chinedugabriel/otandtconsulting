@@ -1131,7 +1131,7 @@ section.dark-sec>.container>.row>.col-md-12>a>span{
     justify-content: center;
 }
 .wrap-text-about>p{
-    width: 45%;
+    width: 70%;
 }
 
 .footer-bg-img{
@@ -1180,7 +1180,7 @@ div.list-wrapper>.item-list{
 }
 div.list-wrapper>.item-list>a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 18px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
